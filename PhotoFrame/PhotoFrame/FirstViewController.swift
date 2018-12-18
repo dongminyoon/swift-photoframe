@@ -22,6 +22,9 @@ class FirstViewController: UIViewController {
         self.firstDescription.text = "첫번째 사진앨범"
         self.firstDescription.textColor = UIColor.gray
         self.firstDescription.shadowColor = UIColor.black
+        self.firstLabel.font = self.firstLabel.font.withSize(40.0)
+        self.firstDescription.font = UIFont.boldSystemFont(ofSize: 16.0)
+        self.firstDescription.font = UIFont.italicSystemFont(ofSize: 16.0)
     }
 }
 
